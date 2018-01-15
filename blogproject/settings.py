@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Django settings for blogproject project.
 
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'blogproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # BASE_DIR就是blogproject\
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
