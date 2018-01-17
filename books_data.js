@@ -1,0 +1,1 @@
+[{"model": "books.publisher", "pk": 2, "fields": {"name": "B'Reilly", "address": "10 Faecett", "city": "asdsa", "state_province": "MA", "country": "U.S.A", "website": "https://sdsfsf.com"}}, {"model": "books.publisher", "pk": 3, "fields": {"name": "Penny", "address": "12 Nanjing Road", "city": "SH", "state_province": "KS", "country": "U.S.A", "website": "https://asdsad.com"}}]
