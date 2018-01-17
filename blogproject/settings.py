@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'books',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,7 @@ ROOT_URLCONF = 'blogproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # BASE_DIR就是blogproject\
+        # 'DIRS': [os.path.join(BASE_DIR, 'templates')],  # BASE_DIR就是blogproject\
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
