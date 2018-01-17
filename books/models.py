@@ -13,7 +13,6 @@ class Publisher(models.Model):
     state_province = models.CharField(max_length=30)
     country = models.CharField(max_length=50)
     website = models.URLField()
-    sex = models.CharField(max_length=4)
 
     def __unicode__(self):
         return self.name
